@@ -1,7 +1,8 @@
 
 /*Chapter 5 programs #1 and #2
  * Gregorian Calendar
- * 
+ * The year must be greater than 1582 to determin
+ * if it is a leap year
  * 
  */
 import java.util.Scanner;
