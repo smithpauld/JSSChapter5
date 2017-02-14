@@ -19,6 +19,7 @@ public class Program4 {
 		while (another == "y") {
 			
 			randomNumber = generator.nextInt(100) + 1;
+			System.out.println(randomNumber);
 			System.out.println("Please enter a number to play");
 			guessNumber = scan.nextInt();
 			
@@ -52,7 +53,8 @@ public class Program4 {
 			System.out.println("Do you want to play again? Select y");
 			another = scan.nextLine();
 			
+			
 
 		}
 	}
-}
+
