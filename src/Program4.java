@@ -16,12 +16,12 @@ public class Program4 {
 		System.out.println("if your guess is to high or low");
 		
 		
-		while (another == "y") {
+		while (another.equals ("y")) {
 			
 			randomNumber = generator.nextInt(100) + 1;
-			System.out.println(randomNumber);
 			System.out.println("Please enter a number to play");
 			guessNumber = scan.nextInt();
+			count = 0;
 			
 			
 			
@@ -52,9 +52,10 @@ public class Program4 {
 
 			System.out.println("Do you want to play again? Select y");
 			another = scan.nextLine();
-			
+			another =scan.next();
 			
 
 		}
 	}
 
+}
