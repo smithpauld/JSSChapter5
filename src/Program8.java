@@ -27,7 +27,7 @@ public class Program8 {
 			if ((randomNumber1 == randomNumber2) && (randomNumber2 == randomNumber3))
 				System.out.println("Congrats! ALL numbers match!!!");
 
-			if ((randomNumber1 == randomNumber2) || (randomNumber2 == randomNumber3)
+			else if ((randomNumber1 == randomNumber2) || (randomNumber2 == randomNumber3)
 					|| (randomNumber1 == randomNumber3)) {
 				System.out.println();
 				System.out.println("Two of the numbers match! Nice!");
@@ -35,7 +35,7 @@ public class Program8 {
 
 			System.out.println("Do you want to play again? Select y");
 			another = scan.nextLine();
-			//another = scan.next();
+			
 
 		}
 	}
