@@ -35,7 +35,7 @@ public class Program8 {
 
 			System.out.println("Do you want to play again? Select y");
 			another = scan.nextLine();
-			another = scan.next();
+			//another = scan.next();
 
 		}
 	}
