@@ -33,7 +33,7 @@ public class Pig {
 				
 				
 				
-				if (roundScore1 >=20){
+				if (roundScore1 >=20 ){
 					System.out.println("You have earned more than 20 points for this round!");
 					System.out.println("It is now Player2's turn");
 					rollAgain1 = "n";
@@ -78,7 +78,7 @@ public class Pig {
 			System.out.println();
 			rollAgain2 = "y";
 			
-			if (player1Score <=100){
+			if (player1Score <=WINSCORE){
 				rollAgain1 ="n";
 			}
 
@@ -147,7 +147,7 @@ public class Pig {
 			rollAgain1 = "y";
 			
 			
-			if (player2Score <=100){
+			if (player2Score >=WINSCORE){
 				rollAgain2 ="n";
 			}
 
